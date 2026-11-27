@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille technologique | Ruben</title>
+  <meta name="description" content="Veille technologique de Ruben : sujets suivis, méthode et sources en cybersécurité.">
+  <meta name="theme-color" content="#0a0d13">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/snake.js" defer></script>
+</head>
+<body>
+
+<header id="site-header"></header>
+
+<main class="wrap">
+
+  <section class="page-head">
+    <h1>Veille technologique</h1>
+    <p class="lede">
+      Cybersécurité et développement web : les sujets que je suis, les sources
+      auxquelles je fais confiance et la méthode qui me permet de ne rien rater d’important.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Sujets suivis</h2>
+    <div class="pillars">
+      <article class="pillar">
+        <h3>Vulnérabilités</h3>
+        <p>Failles critiques, CVE publiées et correctifs à appliquer.</p>
+      </article>
+      <article class="pillar">
+        <h3>Menaces et attaques</h3>
+        <p>Rançongiciels, phishing et fuites de données.</p>
+      </article>
+      <article class="pillar">
+        <h3>Sécurité applicative</h3>
+        <p>OWASP Top 10, développement sécurisé et bonnes pratiques web.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="two-cols">
+      <div>
+        <h2 class="section-title">Ma méthode</h2>
+        <ol class="steps">
+          <li>
+            <div><h3>Collecter</h3><p>Je regroupe les sources dans un agrégateur de flux RSS.</p></div>
+          </li>
+          <li>
+            <div><h3>Trier</h3><p>Je garde ce qui touche mes sujets et j’écarte le bruit.</p></div>
+          </li>
+          <li>
+            <div><h3>Synthétiser</h3><p>Je résume chaque article retenu en quelques lignes.</p></div>
+          </li>
+          <li>
+            <div><h3>Appliquer</h3><p>Je teste ce que j’apprends dans mes projets.</p></div>
+          </li>
+        </ol>
+      </div>
+
+      <div>
+        <h2 class="section-title">Mes sources</h2>
+        <ul class="link-list">
+          <li><a href="https://www.cert.ssi.gouv.fr" target="_blank" rel="noopener noreferrer">
+            <span class="name">CERT-FR</span><span class="meta">Alertes et avis de sécurité</span></a></li>
+          <li><a href="https://cyber.gouv.fr" target="_blank" rel="noopener noreferrer">
+            <span class="name">ANSSI</span><span class="meta">Guides et recommandations</span></a></li>
+          <li><a href="https://www.cybermalveillance.gouv.fr" target="_blank" rel="noopener noreferrer">
+            <span class="name">Cybermalveillance.gouv.fr</span><span class="meta">Menaces et prévention</span></a></li>
+          <li><a href="https://owasp.org" target="_blank" rel="noopener noreferrer">
+            <span class="name">OWASP</span><span class="meta">Sécurité applicative</span></a></li>
+          <li><a href="https://nvd.nist.gov" target="_blank" rel="noopener noreferrer">
+            <span class="name">NVD</span><span class="meta">Base de vulnérabilités (CVE)</span></a></li>
+          <li><a href="https://thehackernews.com" target="_blank" rel="noopener noreferrer">
+            <span class="name">The Hacker News</span><span class="meta">Actualité cybersécurité</span></a></li>
+          <li><a href="https://www.zataz.com" target="_blank" rel="noopener noreferrer">
+            <span class="name">ZATAZ</span><span class="meta">Actualité cybersécurité en français</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    POUR AJOUTER UNE FICHE DE VEILLE : copie un bloc <div class="row"> dans une section
+    <section class="section"><div class="rows"> ... </div></section> avec
+    <h2>Titre + date</h2> et un <div><p>Résumé</p><p><a href="URL">Source</a></p></div>.
+  -->
+
+</main>
+
+<footer id="site-footer" data-tagline="Rester informé, c’est aussi se protéger."></footer>
+
+</body>
+</html>
