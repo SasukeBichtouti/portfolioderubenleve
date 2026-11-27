@@ -1,7 +1,0 @@
-Dépose ici tes fichiers, avec EXACTEMENT ces noms :
-- tableau-de-synthese.pdf     (page E5 : aperçu + téléchargement)
-- cahier-des-charges.pdf      (page E6)
-- fiche-realisation.pdf       (page E6, livrables)
-- documentation-technique.pdf (page E6, livrables)
-- schema.png                  (page E6, livrables)
-Les cartes "à compléter" et les textes entre [crochets] sont à remplacer dans e5.html et e6.html.
